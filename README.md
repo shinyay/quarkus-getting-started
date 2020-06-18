@@ -21,8 +21,15 @@ Create command attributes:
 
 ## Features
 
-- feature:1
-- feature:2
+- List Queakus Extensions: `./gradlew listExtensions`
+- Enable Queakus Extensions: `./gradlew addExtension --extensions="hibernate-validator"`
+- Development Mode: `./gradlew quarkusDev`
+    - You can then update the application sources, resources and configurations. The changes are automatically reflected in your running application.
+- Building a native executable: `./gradlew build -Dquarkus.package.type=native -Dquarkus.native.container-build=true`
+    - Make sure to have GRAALVM_HOME configured and pointing to GraalVM version 19.3.1.
+- Building Uber-Jars: `./gradlew quarkusBuild --uber-jar`
+- Building: `./gradlew build`
+    - This command will not build the native image.
 
 ## Requirement
 
