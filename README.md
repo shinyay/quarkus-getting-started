@@ -1,8 +1,21 @@
-# Name
+# Quarkus Getting Started
 
-Overview
+Quarkus with Kotlin using Gradle
 
 ## Description
+
+`mvn io.quarkus:quarkus-maven-plugin:1.5.1.Final:create`
+
+Create command attributes:
+|Attribute|Description|
+|---------|-----------|
+|projectGroupId|The group id of the created project|
+|projectArtifactId|The artifact id of the created project. Not passing it triggers the interactive mode.|
+|projectVersion|The version of the created project|
+|className|The fully qualified name of the generated resource|
+|path|The resource path, only relevant if className is set.|
+|extensions|The list of extensions to add to the project (comma-separated)|
+
 
 ## Demo
 
