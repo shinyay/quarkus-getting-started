@@ -16,7 +16,7 @@ Quarkus with Kotlin using Gradle
 |Extension - Web|RESTEasy JAX-RS|
 |Alternative languages|Kotlin|
 
-### 
+### Bootstrapping with Maven
 
 `mvn io.quarkus:quarkus-maven-plugin:1.5.1.Final:create`
 
