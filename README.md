@@ -8,7 +8,11 @@ Quarkus with Kotlin using Gradle
 
 ![](https://user-images.githubusercontent.com/3072734/95756502-d45cef00-0ce0-11eb-9f6a-412529f5d941.png)
 
-
+|Configuration|Value|
+|-------------|-----|
+|Group|com.google.shinyay|
+|Artifact|getting-started|
+|Build Tool|Gradle with Kotlin DSL|
 
 ### 
 
