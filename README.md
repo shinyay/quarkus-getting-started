@@ -13,6 +13,8 @@ Quarkus with Kotlin using Gradle
 |Group|com.google.shinyay|
 |Artifact|getting-started|
 |Build Tool|Gradle with Kotlin DSL|
+|Extension - Web|RESTEasy JAX-RS|
+|Alternative languages|Kotlin|
 
 ### 
 
